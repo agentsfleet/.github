@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/usezombie/usezombie/main/assets/logo-dark.svg" width="200" alt="usezombie" />
 </picture>
 
-**A durable, markdown-defined runtime that owns one operational outcome.** Open source · BYOK · hosted on `api.usezombie.com`.
+**Always-on operational runtime — wakes on your events, runs against a durable replayable log, posts evidenced answers (not chats).** Markdown-defined. Hosted on `api.usezombie.com`.
 
 [![Try Free](https://img.shields.io/badge/usezombie-Try_Free-brightgreen?style=for-the-badge)](https://usezombie.com)
 [![Docs](https://img.shields.io/badge/usezombie-Docs-blue?style=for-the-badge)](https://docs.usezombie.com)
@@ -15,15 +15,19 @@
 
 ---
 
+Your deploy fails at 3am. Zombie wakes on the GitHub webhook, walks your CD logs + hosting + data-plane, posts the diagnosis to Slack with line-numbered evidence — every action recorded in a replayable event log. markdown is the only thing you write.
+
 ## What it does
 
-A **Zombie** is a long-lived runtime that owns one operational outcome. v2 ships **`platform-ops`** — wakes on a GitHub Actions deploy-failure webhook, gathers evidence, and posts an evidenced diagnosis to Slack. Reachable manually via `zombiectl steer {id}`.
+A **Zombie** is a long-lived runtime that owns one operational outcome. Not request-response. Not a graph DSL. A daemon for an outcome.
+
+v2 ships **`platform-ops`** — wakes on a GitHub Actions deploy-failure webhook, gathers evidence, and posts an evidenced diagnosis to Slack. Reachable manually via `zombiectl steer {id}`.
 
 You don't code it. You write `SKILL.md` in plain English; install it with `/usezombie-install-platform-ops` in Claude Code, Amp, Codex CLI, or OpenCode. The runtime handles the sandbox (Landlock + cgroups + bwrap), credential injection, durable history, and budget caps.
 
-## Pillars
+## Why this shape
 
-**OSS** · **BYOK** · **markdown-defined**. Self-host arrives in v3.
+**Always-on, event-driven** · **Markdown-defined** · **Replayable event log** · **Sandboxed by default**. BYOK supported. $5 starter credit per workspace — no card required. Self-host arrives in v3.
 
 ## Get started
 
