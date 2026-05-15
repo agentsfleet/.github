@@ -20,3 +20,4 @@
 | [usezombie](https://github.com/usezombie/usezombie) | Control plane, worker, CLI. |
 | [docs](https://github.com/usezombie/docs) | docs.usezombie.com source. |
 | [posthog-zig](https://github.com/usezombie/posthog-zig) | PostHog SDK for Zig. |
+| [skill](https://github.com/usezombie/skills) | Skills. |
