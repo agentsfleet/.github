@@ -6,10 +6,13 @@
   <img src="https://raw.githubusercontent.com/usezombie/docs/main/logo/dark.svg" width="200" alt="usezombie" />
 </picture>
 
-**Durable agent runtime. Wake-on-event. Evidence-driven.**
+**Agentic deploy recovery for production teams.**
+
+Your deploy failed. Zombie wakes up, gathers the evidence, and helps your team find the cause faster — so you can stop chasing failed deploys and get back to shipping.
 
 [![Get early access](https://img.shields.io/badge/usezombie-Get_early_access-5EEAD4?style=for-the-badge)](https://usezombie.com)
 [![Docs](https://img.shields.io/badge/usezombie-Docs-5EEAD4?style=for-the-badge)](https://docs.usezombie.com)
+[![Discord](https://img.shields.io/badge/usezombie-Discord-5865F2?style=for-the-badge)](https://discord.gg/H9hH2nqQjh)
 
 </div>
 
