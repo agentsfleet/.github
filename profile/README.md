@@ -20,7 +20,7 @@ Your deploy failed. Zombie wakes up, gathers the evidence, and helps your team f
 
 | Repo | What |
 |---|---|
-| [usezombie](https://github.com/usezombie/usezombie) | Control plane, worker, CLI. |
+| [usezombie](https://github.com/usezombie/usezombie) | Control plane, runner, worker, and CLI — the engine that wakes on a failed deploy and gathers the evidence. |
 | [docs](https://github.com/usezombie/docs) | docs.usezombie.com source. |
 | [posthog-zig](https://github.com/usezombie/posthog-zig) | PostHog SDK for Zig. |
 | [skill](https://github.com/usezombie/skills) | Skills. |
