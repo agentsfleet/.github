@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usezombie/usezombie/main/branding/agentsfleet-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usezombie/usezombie/main/branding/agentsfleet-light.svg" />
-  <img src="https://raw.githubusercontent.com/usezombie/usezombie/main/branding/agentsfleet-dark.svg" width="360" alt="agentsfleet" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agentsfleet/usezombie/main/branding/agentsfleet-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/agentsfleet/usezombie/main/branding/agentsfleet-light.svg" />
+  <img src="https://raw.githubusercontent.com/agentsfleet/usezombie/main/branding/agentsfleet-dark.svg" width="360" alt="agentsfleet" />
 </picture>
 
 **Agentic deploy recovery for production teams.**
@@ -20,7 +20,7 @@ Your deploy failed. An agent wakes up, gathers the evidence, and helps your team
 
 | Repo | What |
 |---|---|
-| [agentsfleet](https://github.com/usezombie/usezombie) | Control plane, runner, worker, and command-line interface (CLI); the engine that wakes on a failed deploy and gathers the evidence. |
+| [agentsfleet](https://github.com/agentsfleet/usezombie) | Control plane, runner, worker, and command-line interface (CLI); the engine that wakes on a failed deploy and gathers the evidence. |
 | [docs](https://github.com/usezombie/docs) | docs.agentsfleet.net source. |
 | [posthog-zig](https://github.com/usezombie/posthog-zig) | PostHog software development kit (SDK) for Zig. |
 | [skills](https://github.com/usezombie/skills) | Agent skill libraries. |
