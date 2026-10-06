@@ -22,4 +22,4 @@ Prebuilt AI teammates that take the recurring engineering work off your plate â€
 |---|---|
 | [agentsfleet](https://github.com/agentsfleet/agentsfleet) | Control plane, runner, worker, and command-line interface (CLI); the runtime each teammate runs on â€” wakes on an event and runs the investigation end to end. |
 | [docs](https://github.com/agentsfleet/docs) | docs.agentsfleet.net source. |
-| [orly](https://github.com/agentsfleet/orly) | AI assisted software dev for agentsfleet. |
+| [orly](https://github.com/agentsfleet/orly) | Opinionated agent harness used by indykish. |
