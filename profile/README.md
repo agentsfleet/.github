@@ -8,7 +8,7 @@
 
 **Agents that wake when production does.**
 
-An open-source runtime that wakes an AI agent on an incident, a failed deploy or a pull request, lets it investigate with your logs, metrics and code, and records every run. Bring your own model key and approve what ships.
+An open-source runtime that wakes an AI agent on an incident, a failed deploy or a pull request, lets it investigate with your logs, metrics and code, and records every run. Bring your own model key or use the platform's, and approve what ships.
 
 [![Get early access](https://img.shields.io/badge/agentsfleet-Get_early_access-5EEAD4?style=for-the-badge)](https://agentsfleet.net)
 [![Docs](https://img.shields.io/badge/agentsfleet-Docs-5EEAD4?style=for-the-badge)](https://docs.agentsfleet.net)
